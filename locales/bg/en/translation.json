@@ -1,0 +1,267 @@
+{
+  "socialLinks": {
+    "facebook": {
+      "name": "Facebook",
+      "icon": "PiFacebookLogoFill"
+    },
+    "instagram": {
+      "name": "Instagram",
+      "icon": "PiInstagramLogoFill"
+    },
+    "twitter": {
+      "name": "Twitter",
+      "icon": "PiTwitterLogoFill"
+    },
+    "youtube": {
+      "name": "YouTube",
+      "icon": "PiYoutubeLogoFill"
+    },
+    "tiktok": {
+      "name": "TokTok",
+      "icon": "PiTiktokLogoFill"
+    },
+    "web": {
+      "icon": "PiGlobeFill"
+    }
+  },
+  "toasts": {
+    "consent": {
+      "title": "Съгласие",
+      "description": "Ние използваме бисквитки. приемате ли"
+    },
+    "error": {
+      "title": "Нещо се обърка"
+    },
+    "success": {
+      "title": "Успех"
+    }
+  },
+  "modals": {
+    "confirmation": {
+      "confirm": "Добре",
+      "cancel": "Отказ"
+    }
+  },
+  "input": {
+    "image": {
+      "title": "Качи изображение",
+      "description": "JPG, PNG, GIF",
+      "crop": "Качване"
+    },
+    "select": {
+    }
+  },
+  "lists": {
+    "more": "Зареди още"
+  },
+  "requirements": {
+    "credits": {
+      "title": "Изискват се кредити",
+      "action": "Купете кредити",
+      "message": {
+      }
+    },
+    "premium": {
+      "action": "Абонирай се",
+      "message": {
+      }
+    },
+    "limit": {
+      "title": "Достигнат лимит",
+      "message": {
+      }
+    }
+  },
+  "auth": {
+    "email": {
+      "send": "Изпрати",
+      "success": "Връзката за влизане беше изпратена до {{имейл}}"
+    },
+    "google": {
+    },
+    "fake": {
+    },
+    "eula": {
+      "agreement": "С влизането в този уебсайт приемам",
+      "privacy": "Политика за поверителност",
+      "terms": "Условия за ползване"
+    }
+  },
+  "rewards": {
+  },
+  "charactersList": {
+    "noResult": {
+      "title": "Няма резултати по критерии"
+    },
+    "resetFilter": "Нулиране на филтри"
+  },
+  "character": {
+    "reviewBadge": "Преглед",
+    "createTitle": "Създавайте",
+    "status": {
+      "verified": "Проверен",
+      "unverified": "В процес на преразглеждане"
+    },
+    "actions": {
+      "edit": "редактиране",
+      "delete": "Изтрий",
+      "create": "Създавайте",
+      "vault": "Трезор"
+    },
+    "stats": {
+      "title": "Статистика на вашите герои"
+    },
+    "form": {
+      "basic": {
+        "title": "Основен",
+        "description": "Обща информация"
+      },
+      "personality": {
+        "title": "Личност",
+        "description": "Вашият герой отвътре",
+        "detailedSetup": "Подробна настройка",
+        "basicSetup": "Основна настройка"
+      },
+      "fineTuning": {
+        "title": "Фина настройка",
+        "description": "Овладяване на вашия характер"
+      },
+      "financial": {
+        "title": "Финансови",
+        "description": "Всичко е заради парите"
+      },
+      "social": {
+        "title": "Социални",
+        "description": "Споделете вашите социални мрежи!"
+      },
+      "errors": {
+        "nameTaken": "Името вече е заето"
+      },
+      "fields": {
+        "name": {
+          "label": "Име на герой",
+          "helper": "Това ще бъде името, което вашият герой използва в чата."
+        },
+        "gender": {
+          "label": "Пол",
+          "helper": "Какъв е пола на вашия герой?",
+          "options": {
+            "male": "Мъжки",
+            "female": "Женски пол",
+            "other": "Не двоичен"
+          }
+        },
+        "type": {
+          "label": "Тип",
+          "helper": "Вашият герой личен или измислен е? Ако сте инфлуенсър, свържете се с нас.",
+          "options": {
+            "personal": "Лична",
+            "fictional": "Измислен",
+            "influencer": "Инфлуенсър"
+          }
+        },
+        "visibility": {
+          "label": "Видимост",
+          "helper": "Изберете видимостта за вашия герой: Публичен (видим за всички), Частен (видим само за вас) или Скрит (видим за всеки с връзката).",
+          "options": {
+            "public": "Обществен",
+            "private": "Частно",
+            "unlisted": "Скрит"
+          }
+        },
+        "bio": {
+          "label": "Публична биография",
+          "helper": "Как вашият герой би описал себе си?"
+        },
+        "avatar": {
+          "label": "Аватар",
+          "helper": "Това ще бъде изображението на вашия герой в списъците"
+        },
+        "tags": {
+          "label": "Етикети",
+          "helper": "Могат да бъдат избрани до 3 етикета."
+        },
+        "creditsPerMessage": {
+          "label": "Кредити / Съобщение",
+          "helper": "Колко кредита искате да таксувате на вашите потребители на съобщение в чата? (0 - 100)",
+          "requirement": {
+            "allowed": "Можете да зададете цена за вашия герой тук",
+            "disallowed": "Трябва да сте Premium потребител, за да зададете цена за вашия герой!"
+          }
+        },
+        "greeting": {
+          "label": "Поздрав",
+          "helper": "Какво би казал, за да започне разговор?"
+        },
+        "scenario": {
+          "label": "Сценарий",
+          "helper": "В какъв сценарий е вашият герой"
+        },
+        "exampleConversation": {
+          "label": "Примерен разговор",
+          "helper": "Примерни разговори и информация за определяне на вашия характер. Първите 15-30 съобщения са най-важни. Вижте това ръководство."
+        },
+        "template": {
+          "label": "Модел на персонажа",
+          "helper": "Изберете между различните модели герои. Те имат различно поведение."
+        },
+        "creativity": {
+          "label": "креативност",
+          "helper": "Задайте креативността (температурата) на вашия герой"
+        },
+        "personalityText": {
+          "label": "Резюме на личността",
+          "helper": "Опишете с няколко изречения каква е личността на вашия герой"
+        }
+      }
+    }
+  },
+  "conversation": {
+    "placeholder": "Въведете нещо...",
+    "clearText": "Изчистване на текста",
+    "sendMessage": "Изпрати съобщение",
+    "chooseFile": "Изберете файл",
+    "newChat": "Нов чат",
+    "disclaimer": "Запомнете: Всичко, което героят казва, е измислено!",
+    "typingNotification": "{{character.name}} пише",
+    "noFiles": "Този герой няма какво да покаже в момента",
+    "chooseCategory": "Изберете категория:",
+    "characters": "герои",
+    "attributes": "Атрибути",
+    "chats": "Чатове",
+    "views": "Изгледи",
+    "type": "Тип",
+    "gender": "Пол",
+    "promoted": "Повишен",
+    "owner": "Собственик"
+  },
+  "vault": {
+    "fileStatuses": {
+      "unverified": "Нов",
+      "approved": "Одобрено",
+      "rejected": "Отхвърлено"
+    },
+    "messages": {
+      "image": "Изпратете ми снимка на {{category.name}}",
+      "video": "Пусни ми видеоклип от {{category.name}}",
+      "audio": "Нека чуя нещо от {{category.name}}",
+      "document": "Нека прочета документ от {{category.name}}"
+    }
+  },
+  "footer": {
+    "about": "{{appTitle}} осигурява завладяващи изживявания, които се чувстват истински, позволявайки на потребителите да генерират изображения и да създават AI герои.",
+    "contacts": "Контакти:",
+    "privacy": "Политика за поверителност",
+    "terms": "Условия за ползване",
+    "copyright": "© 2024 {{appTitle}}. Всички права запазени"
+  },
+  "errors": {
+    "page": {
+      "title": "Ами сега, нещо се обърка",
+      "description": "Възникна фатална грешка. Моля, опитайте отново след няколко секунди",
+      "tryAgain": "Опитай пак"
+    },
+    "maxFileSizeLimit": "Максималният размер на файла трябва да е по-малък от {{limit}}",
+    "noFileSelected": "Не е избран файл"
+  }
+}
