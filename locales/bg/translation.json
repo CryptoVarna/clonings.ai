@@ -1,0 +1,28 @@
+{
+    "socialLinks": {
+        "facebook": {
+            "name": "Facebook",
+            "icon": "PiFacebookLogoFill"
+        },
+        "instagram": {
+            "name": "Instagram",
+            "icon": "PiInstagramLogo"
+        },
+        "twitter": {
+            "name": "Twitter",
+            "icon": "PiTwitterLogo"
+        },
+        "youtube": {
+            "name": "YouTube",
+            "icon": "PiYoutubeLogo"
+        },
+        "tiktok": {
+            "name": "TokTok",
+            "icon": "PiTiktokLogo"
+        },
+        "web": {
+            "name": "Web",
+            "icon": "PiGlobe"
+        }
+    }
+}

@@ -1,0 +1,296 @@
+{
+    "socialLinks": {
+        "facebook": {
+            "name": "Facebook",
+            "icon": "PiFacebookLogoFill"
+        },
+        "instagram": {
+            "name": "Instagram",
+            "icon": "PiInstagramLogoFill"
+        },
+        "twitter": {
+            "name": "Twitter",
+            "icon": "PiTwitterLogoFill"
+        },
+        "youtube": {
+            "name": "YouTube",
+            "icon": "PiYoutubeLogoFill"
+        },
+        "tiktok": {
+            "name": "TokTok",
+            "icon": "PiTiktokLogoFill"
+        },
+        "web": {
+            "name": "Web",
+            "icon": "PiGlobeFill"
+        }
+    },
+    "toasts": {
+        "close": "Close",
+        "consent": {
+            "allow": "Allow",
+            "deny": "Deny",
+            "title": "Consent",
+            "description": "We are using cookies. Do you acccept?"
+        },
+        "error": {
+            "title": "Something went wrong"
+        },
+        "success": {
+            "title": "Success"
+        }
+    },
+    "modals": {
+        "close": "Close",
+        "confirmation": {
+            "confirm": "OK",
+            "cancel": "Cancel"
+        }
+    },
+    "input": {
+        "image": {
+            "title": "Upload Image",
+            "description": "JPG, PNG, GIF",
+            "crop": "Upload"
+        },
+        "select": {
+            "placeholder": "Select ...",
+            "placeholderCreate": "Select or type here ..."
+        }
+    },
+    "lists": {
+        "more": "Load More"
+    },
+    "requirements": {
+        "credits": {
+            "title": "Credits Required",
+            "link": "/credits",
+            "action": "Buy Credits",
+            "message": {
+                "createcharacter": "You need 🪙{{value}} credits to create a character",
+                "sendmessage": "You need 🪙{{value}} credits to send a message",
+                "regeneratemessage": "You need 🪙{{value}} credits to regenerate a message"
+            }
+        },
+        "premium": {
+            "title": "Premium Required",
+            "link": "/subscriptions",
+            "action": "Subscribe",
+            "message": {
+                "createpremiumcharacter": "You need to subscribe to a plan in order to create a premium character",
+                "premiumtemplate": "You need to subscribe to a plan in order to choose a premium template",
+                "regeneratemessage": "You need to subscribe to a plan in order to regenerate messages",
+                "premiumvaultcategory": "You need to subscribe to a plan in order to create a premium category"
+            }
+        },
+        "limit": {
+            "title": "Limit Reached",
+            "link": "/subscriptions",
+            "action": "Upgrade",
+            "message": {
+                "createcharacter": "You have reached your limit of {{value}} characters",
+                "newconversation": "You have reached your limit of {{value}} conversations",
+                "vaultcategorylimit": "You have reached your limit of {{value}} categories",
+                "vaultcategoryfilelimit": "You have reached your limit of {{value}} files in a category"
+            }
+        }
+    },
+    "auth": {
+        "email": {
+            "placeholder": "Email",
+            "helper": "We will send you a magic link to login. Open it in the same device and browser to login.",
+            "send": "Send",
+            "success": "Login link was sent to {{email}}"
+        },
+        "google": {
+            "login": "Connect with Google"
+        },
+        "fake": {
+            "login": "Fake Login"
+        },
+        "eula": {
+            "agreement": "By entering this website I accept",
+            "privacy": "Privacy Policy",
+            "terms": "Terms of Service"
+        }
+    },
+    "rewards": {
+        "share": "Share"
+    },
+    "charactersList": {
+        "noResult": {
+            "title": "No results based on criteria",
+            "description": "Try another search"
+        },
+        "resetFilter": "Reset Filters"
+    },
+    "character": {
+        "reviewBadge": "Review",
+        "createTitle": "Create",
+        "status": {
+            "verified": "Verified",
+            "unverified": "Under Review"
+        },
+        "actions": {
+            "edit": "Edit",
+            "delete": "Delete",
+            "create": "Create",
+            "vault": "Vault"
+        },
+        "stats": {
+            "title": "Your characters statistics"
+        },
+        "form": {
+            "basic": {
+                "title": "Basic",
+                "description": "General info"
+            },
+            "personality": {
+                "title": "Personality",
+                "description": "Your character inside",
+                "detailedSetup": "Detailed Setup",
+                "basicSetup": "Basic Setup"
+            },
+            "fineTuning": {
+                "title": "Fine Tuning",
+                "description": "Mastering your character"
+            },
+            "financial": {
+                "title": "Financial",
+                "description": "Its all about the money"
+            },
+            "social": {
+                "title": "Social",
+                "description": "Share your social networks!"
+            },
+            "errors": {
+                "nameTaken": "Name is already taken"
+            },
+            "fields": {
+                "name": {
+                    "label": "Character Name",
+                    "helper": "This will be the name your Character uses in chat."
+                },
+                "gender": {
+                    "label": "Gender",
+                    "helper": "What is your character's gender?",
+                    "options": {
+                        "male": "Male",
+                        "female": "Female",
+                        "other": "Non Binary"
+                    }
+                },
+                "type": {
+                    "label": "Type",
+                    "helper": "Is your character a Personal or Fictional? If you are an influencer contact us.",
+                    "options": {
+                        "personal": "Personal",
+                        "fictional": "Fictional",
+                        "influencer": "Influencer"
+                    }
+                },
+                "visibility": {
+                    "label": "Visibility",
+                    "helper": "Select the visibility for your character: Public (visible to everyone), Private (visible only to you), or Unlisted (visible to anyone with the link).",
+                    "options": {
+                        "public": "Public",
+                        "private": "Private",
+                        "unlisted": "Unlisted"
+                    }
+                },
+                "bio": {
+                    "label": "Public Bio",
+                    "helper": "How would your Character describe themselves?"
+                },
+                "avatar": {
+                    "label": "Avatar",
+                    "helper": "This will be the image of your character in the listings"
+                },
+                "tags": {
+                    "label": "Tags",
+                    "helper": "Up to 3 tags can be selected."
+                },
+                "creditsPerMessage": {
+                    "label": "Credits / Message",
+                    "helper": "How much credits you want to charge your users per chat message? (0 - 100)",
+                    "requirement": {
+                        "allowed": "You can set a price for your character here",
+                        "disallowed": "You need to be Premium user in oreder to set a price for your character!"
+                    }
+                },
+                "greeting": {
+                    "label": "Greeting",
+                    "helper": "What would say to start a conversation?"
+                },
+                "scenario": {
+                    "label": "Scenario",
+                    "helper": "In what scenario is your character in"
+                },
+                "exampleConversation": {
+                    "label": "Example conversation",
+                    "helper": "Example conversations and information to define your Character. The first 15-30 messages are the most important. See this guide."
+                },
+                "template": {
+                    "label": "Character Model",
+                    "helper": "Choose between the different character models. They have different behaviors."
+                },
+                "creativity": {
+                    "label": "Creativity",
+                    "helper": "Set the creativity (temperature) of your character"
+                },
+                "personalityText": {
+                    "label": "Persona Summary",
+                    "helper": "Describe in few sentences what is your character's persona"
+                }
+            }
+        }
+    },
+    "conversation": {
+        "placeholder": "Type Something...",
+        "clearText": "Clear Text",
+        "sendMessage": "Send Message",
+        "chooseFile": "Choose File",
+        "newChat": "New Chat",
+        "disclaimer": "Remember: Everything that the character say is made up!",
+        "typingNotification": "{{character.name}} is typing",
+        "noFiles": "This character has nothing to show currently",
+        "chooseCategory": "Choose category:",
+        "characters": "Characters",
+        "attributes": "Attributes",
+        "chats": "Chats",
+        "views": "Views",
+        "type": "Type",
+        "gender": "Gender",
+        "promoted": "Promoted",
+        "owner": "Owner"
+    },
+    "vault": {
+        "fileStatuses": {
+            "unverified": "New",
+            "approved": "Approved",
+            "rejected": "Rejected"
+        },
+        "messages": {
+            "image": "Send me a {{category.name}} photo",
+            "video": "Play me a {{category.name}} video",
+            "audio": "Let me hear something from {{category.name}}",
+            "document": "Let me read a document from {{category.name}}"
+        }
+    },
+    "footer": {
+        "about": "{{appTitle}} powers immersive experiences that feel real, allowing users to generate images and create AI characters.",
+        "contacts": "Contacts:",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service",
+        "copyright": "© 2024 {{appTitle}}. All Rights Reserved"
+    },
+    "errors": {
+        "page": {
+            "title": "Oops, something went wrong",
+            "description": "A fatal error occurred. Please try again in few seconds",
+            "tryAgain": "Try Again"
+        },
+        "maxFileSizeLimit": "Max file size should be less than {{limit}}",
+        "noFileSelected": "No file selected"
+    }
+}
